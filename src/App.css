@@ -1,0 +1,20 @@
+
+*{
+    word-wrap: break-word;
+    word-break: break-all;
+    margin: 0;
+    padding: 0;
+}
+.ellipsis {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.custom-print-page{
+    page-break-before: always;
+}
+
+button.MuiButtonBase-root{
+    text-transform: none;
+}

@@ -1,0 +1,73 @@
+{
+  "name": "hro_client",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/react": "^11.11.3",
+    "@emotion/styled": "^11.11.0",
+    "@mui/icons-material": "^5.15.2",
+    "@mui/lab": "^5.0.0-alpha.158",
+    "@mui/material": "^5.15.2",
+    "@mui/x-data-grid": "^6.18.6",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@types/jest": "^27.5.2",
+    "@types/node": "^16.18.68",
+    "@types/quill": "^2.0.14",
+    "@types/react": "^18.2.45",
+    "@types/react-dom": "^18.2.18",
+    "crypto-js": "^4.2.0",
+    "date-fns": "^3.2.0",
+    "file-saver": "^2.0.5",
+    "jszip": "^3.10.1",
+    "lodash": "^4.17.21",
+    "mdi-material-ui": "^7.7.0",
+    "react": "^18.2.0",
+    "react-countdown": "^2.3.5",
+    "react-datepicker": "^4.25.0",
+    "react-dnd": "^16.0.1",
+    "react-dnd-html5-backend": "^16.0.1",
+    "react-dom": "^18.2.0",
+    "react-hook-form": "^7.49.2",
+    "react-hot-toast": "^2.4.1",
+    "react-perfect-scrollbar": "^1.5.8",
+    "react-rnd": "^10.4.1",
+    "react-router-dom": "^6.21.1",
+    "react-scripts": "5.0.1",
+    "typescript": "^4.9.5",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "PORT=9300 REACT_APP_ENV=dev react-scripts start",
+    "test": "REACT_APP_ENV=test react-scripts build",
+    "stage": "REACT_APP_ENV=stage react-scripts build",
+    "build": "REACT_APP_ENV=prod GENERATE_SOURCEMAP=false NODE_OPTIONS='--no-warnings' craco build"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@craco/craco": "^7.1.0",
+    "@types/crypto-js": "^4.2.1",
+    "@types/file-saver": "^2.0.7",
+    "@types/lodash": "^4.14.202",
+    "@types/react-datepicker": "^4.19.4",
+    "optimize-css-assets-webpack-plugin": "^6.0.1"
+  }
+}
